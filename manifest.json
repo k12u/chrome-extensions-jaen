@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL Language Switcher",
+  "version": "1.0",
+  "description": "Switches the 'hl' parameter in URLs between 'en' and 'ja'.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Switch Language"
+  }
+}
